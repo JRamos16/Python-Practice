@@ -7,6 +7,7 @@ user_number = int(input("Please enter a number: "))
 user_list = []
 
 user_input = range(1, user_number + 1)
+print(user_list)
 
 for element in user_input: 
     if user_number % element == 0:
