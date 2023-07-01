@@ -19,8 +19,8 @@ def fiboacci_generator(user_input):
         return(fib_seq)
 
 user_input = int(input("Please enter a number: "))
-result = fiboacci_generator(user_input)
-print(result)
+print(fiboacci_generator(user_input))
+
 
 
 
